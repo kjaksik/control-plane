@@ -151,6 +151,7 @@ func main() {
 	logger.RegisterSink(lager.NewWriterSink(os.Stderr, lager.ERROR))
 
 	logger.Info("Starting Kyma Environment Broker")
+	logger.Info("Starting Kyma Environment Broker")
 
 	logs := logrus.New()
 	logs.SetFormatter(&logrus.JSONFormatter{})
